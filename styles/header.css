@@ -81,7 +81,7 @@
 	display: -ms-flexbox;
 	display: flex;
 	text-align: left;
-	width: 900px;
+	width: 80%;
 	height: 100%;
 	padding-top: 80px;
 	padding-left: 50px; 
@@ -93,6 +93,27 @@
 	background-color: #5A98D0;
 	left: 60%;
 	border-radius: 100px 0 0 0;
+
+ 	-webkit-transform: translateX(-150%);
+    -ms-transform: translateX(-150%);
+        transform: translateX(-150%);
+	-webkit-animation: animation-open 0.5s forwards;
+	        animation: animation-open 0.5s forwards;
+}
+
+
+							/*ANIMATION*/
+
+
+@-webkit-keyframes animation-open {
+  0% {-webkit-transform: translateX(150%);transform: translateX(150%);}
+  100% {-webkit-transform: translateY(0);transform: translateY(0);}
+}
+
+
+@keyframes animation-open {
+  0% {-webkit-transform: translateX(150%);transform: translateX(150%);}
+  100% {-webkit-transform: translateY(0);transform: translateY(0);}
 }
 
 
