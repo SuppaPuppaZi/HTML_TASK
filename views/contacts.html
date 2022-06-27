@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Afrianska</title>
+	<link rel="stylesheet" href="../styles/contacts.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../images/icons/site-logo.ico">
+</head>
+
+<body>
+	<header>
+		<div class="navigation">
+			<img class="logo" src="../images/icons/Logo.png" alt="Лого компании">
+			<div class="burger-menu">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+
+			<div class="menu-nav">
+				<p class="footer-text title about">About Us</p>
+				<a class="text footer-text about1" href="homepage.html" target="_blank">About</a>
+				<a class="text footer-text about2" href="blogpage.html" target="_blank">What We Do</a>
+				<a class="text footer-text about3" href="blogpage.html" target="_blank">Project</a>
+				<a class="text footer-text about4" href="contacts.html" target="_blank">How it Work With Us</a>
+				<p>
+
+				<p class="footer-text title follow">Follow US</p>
+				<a class="text footer-text follow1" href="https://ok.ru" target="_blank">OK</a>
+				<a class="text footer-text follow2" href="https://vk.com" target="_blank">VK</a>
+				<a class="text footer-text follow3" href="https://telegram.org" target="_blank">Telegram</a>
+				<a class="text footer-text follow4" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">YouTube</a>
+
+				<p class="footer-text title follow">SAMPLE_1</p>
+				<p class="footer-text title follow">SAMPLE_2</p>
+			</div>
+		</div>
+
+		<div class="header-container">
+			<h1 class="header-title">Contact Us</h1>
+			<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc erat, vehicula ut ante sed, sagittis iaculis enim. Vestibulum ultricies risus orci. Lorem ipsum dolor sit amet.</p>
+		</div>
+
+	</header>
+
+	<main>
+		<div class="information-container">
+			<img class="illustration-information" src="../images/information.png">
+			<p class="information-title">ADDRESS</p>
+			<P class="information-text adress">Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</p>
+			<p class="information-title">PHONE</p>
+			<p class="information-text"><img class="icon" src="../images/icons/phone.png">+62-812-7313-4321</p>
+			<p class="information-text"><img class="icon" src="../images/icons/phone.png">+62-817-000-1234</p>
+			<p class="information-title">ONLINE SERVICE</p>
+			<p class="information-text"><img class="icon" src="../images/icons/web.png">www.afrianska.com</p>
+			<p class="information-text"><img class="icon" src="../images/icons/email.png">hello.afrian@gmail.com</p>
+		</div>
+
+		<form class="form-container" action="">
+			<p class="main-form-title">SEND US MESSAGE</p>
+			<div>
+				<label class="form-title" for="text">Full Name</label>
+				<input class="input" type="text" id="text" placeholder="Your Name">
+			</div>
+
+			<div>
+				<label class="form-title" for="email">Email</label>
+				<input class="input" type="email" id="email" placeholder="Your Email">
+			</div>
+
+			<div>
+				<label class="form-title" for="text">Message</label>
+				<textarea class="input" name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+			</div>
+
+			<button type="submit" class="submit-button">SUBMIT</button>
+		</form>
+
+		<div id="map" class="map"></div>
+
+	</main>
+
+	<footer>
+		<div class="footer-container1">
+			<h3 class="title3 workteam">Interested to work with our team?</h3>
+			<p class="text workteam">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac orci lacinia, mollis justo eget, vehicula odio. Phasellus turpis lectus, euismod a eleifend eu, iaculis vel sapien.</p>
+			<a href="contacts.html" target="_blank"><button class="talk-button">Let's talk</button></a>
+		</div>
+
+		<div class="white-line"></div>
+
+		<div class="footer-container2">
+			<p class="footer-text logo-title"><img src="../images/icons/LogoLight.png" alt="Лого компании">&nbsp;Afrianska</p>
+
+			<p class="text footer-text contacts">A. &nbsp; Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+			<p class="text footer-text contacts">Т. &nbsp; +62-812-7313-4321</p>
+			<p class="text footer-text contacts">E. &nbsp; hello.afrian@gmail.com</p>
+
+			<p class="footer-text title about">About Us</p>
+			<a class="text footer-text about1" href="homepage.html" target="_blank">About</a>
+			<a class="text footer-text about2" href="blogpage.html" target="_blank">What We Do</a>
+			<a class="text footer-text about3" href="blogpage.html" target="_blank">Project</a>
+			<a class="text footer-text about4" href="contacts.html" target="_blank">How it Work With Us</a>
+
+			<p class="footer-text title follow">Follow US</p>
+			<p class="footer-text title follow">Follow US</p>
+			<a class="text footer-text follow1" href="https://ok.ru" target="_blank">OK</a>
+			<a class="text footer-text follow2" href="https://vk.com" target="_blank">VK</a>
+			<a class="text footer-text follow3" href="https://telegram.org" target="_blank">Telegram</a>
+			<a class="text footer-text follow4" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">YouTube</a>
+		</div>
+
+		<p class="text footer-text copyright">2019 © Afrianska. All rights reserved.</p>
+
+	</footer>
+
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"></script>
+	<script src="../scripts/map.js"></script>
+	<script src='../scripts/scripts.js'></script>
+
+</body>
+
+</html>
+

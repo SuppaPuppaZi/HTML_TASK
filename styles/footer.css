@@ -1,0 +1,264 @@
+
+footer {
+	height: 100%;
+	width: 90%;
+	background-color: #316099;
+	border-radius: 0px 200px 0px 0px;
+
+}
+
+.talk-button {
+	float: right;
+	height: 50px;
+	width: 200px;
+	margin: 30px 0 0 600px;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	background: #5A98D0;
+	border-radius: 10px;
+	border: none;
+}
+
+.text.footer-text {
+	opacity: 0.9;
+	color: #FFFFFF;
+}
+
+.footer-text.logo-title {
+	font-size: 28px;
+	line-height: 46px;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+}
+
+.footer-text.title {
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+}
+
+.footer-text.copyright {
+	padding: 10%;
+	opacity: 0.4;
+}
+
+.title3.workteam {
+	width: 350px;
+	font-size: 36px;
+	line-height: 46px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+}
+
+.footer-container1 {
+	width: 400px;
+	padding: 10%;
+	display: inline-block;
+}
+
+
+.white-line {
+	margin: 5% 0;
+	height: 1px;
+	width: 80%;
+	background-color: #FFFFFF;
+}
+
+.text.workteam {
+	padding-top: 50px;
+	width: 500px;
+}
+
+
+.footer-container2 {
+	padding: 0 10%;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 1fr 10% 1fr 10% 1fr;
+	grid-template-columns: repeat(3, 1fr);
+	-ms-grid-rows: 1fr 4% 1fr 4% 1fr 4% 1fr;
+	grid-template-rows: repeat(4, 1fr);
+	grid-column-gap: 10%;
+	grid-row-gap: 4%;
+}
+
+
+.footer-container2 > *:nth-child(1) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 1;
+}
+
+
+.footer-container2 > *:nth-child(2) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 3;
+}
+
+
+.footer-container2 > *:nth-child(3) {
+	-ms-grid-row: 1;
+	-ms-grid-column: 5;
+}
+
+
+.footer-container2 > *:nth-child(4) {
+	-ms-grid-row: 3;
+	-ms-grid-column: 1;
+}
+
+
+.footer-container2 > *:nth-child(5) {
+	-ms-grid-row: 3;
+	-ms-grid-column: 3;
+}
+
+
+.footer-container2 > *:nth-child(6) {
+	-ms-grid-row: 3;
+	-ms-grid-column: 5;
+}
+
+
+.footer-container2 > *:nth-child(7) {
+	-ms-grid-row: 5;
+	-ms-grid-column: 1;
+}
+
+
+.footer-container2 > *:nth-child(8) {
+	-ms-grid-row: 5;
+	-ms-grid-column: 3;
+}
+
+
+.footer-container2 > *:nth-child(9) {
+	-ms-grid-row: 5;
+	-ms-grid-column: 5;
+}
+
+
+.footer-container2 > *:nth-child(10) {
+	-ms-grid-row: 7;
+	-ms-grid-column: 1;
+}
+
+
+.footer-container2 > *:nth-child(11) {
+	-ms-grid-row: 7;
+	-ms-grid-column: 3;
+}
+
+
+.footer-container2 > *:nth-child(12) {
+	-ms-grid-row: 7;
+	-ms-grid-column: 5;
+}
+
+.footer-text.logo-title {
+	-ms-grid-column: 1;
+	    grid-column-start: 1;
+}
+
+.footer-text.contacts {
+	-ms-grid-column: 1;
+	    grid-column-start: 1;
+}
+
+
+/*ABOUT*/
+
+.footer-text.title.about {
+	-ms-grid-row: 1;
+	    grid-row-start: 1;
+	-ms-grid-column: 2;
+	    grid-column-start: 2;
+
+}
+
+.footer-text.about1 {
+	-ms-grid-row: 2;
+	    grid-row-start: 2;
+	-ms-grid-column: 2;
+	    grid-column-start: 2;
+}
+
+.footer-text.about2 {
+	-ms-grid-row: 3;
+	    grid-row-start: 3;
+	-ms-grid-column: 2;
+	    grid-column-start: 2;
+}
+
+.footer-text.about3 {
+	-ms-grid-row: 4;
+	    grid-row-start: 4;
+	-ms-grid-column: 2;
+	    grid-column-start: 2;
+}
+
+.footer-text.about4 {
+	-ms-grid-row: 5;
+	    grid-row-start: 5;
+	-ms-grid-column: 2;
+	    grid-column-start: 2;
+}
+
+
+/*FOLLOW*/
+
+.footer-text.title.follow {
+	-ms-grid-row: 1;
+	    grid-row-start: 1;
+	-ms-grid-column: 3;
+	    grid-column-start: 3;
+
+}
+
+.footer-text.follow1 {
+	-ms-grid-row: 2;
+	    grid-row-start: 2;
+	-ms-grid-column: 3;
+	    grid-column-start: 3;
+}
+
+.footer-text.follow2 {
+	-ms-grid-row: 3;
+	    grid-row-start: 3;
+	-ms-grid-column: 3;
+	    grid-column-start: 3;
+}
+
+.footer-text.follow3 {
+	-ms-grid-row: 4;
+	    grid-row-start: 4;
+	-ms-grid-column: 3;
+	    grid-column-start: 3;
+}
+
+.footer-text.follow4 {
+	-ms-grid-row: 5;
+	    grid-row-start: 5;
+	-ms-grid-column: 3;
+	    grid-column-start: 3;
+}
+
+
+
+									/*HOVER'S*/
+
+.talk-button:hover {
+	-webkit-transform: scale(1.2);
+	    -ms-transform: scale(1.2);
+	        transform: scale(1.2);
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+	background-color: #1E90FF; 
+}	
+
+.text.footer-text:hover {
+	text-decoration: none;
+}

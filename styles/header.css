@@ -1,0 +1,111 @@
+.navigation {
+	width: 100%;
+	background-color: #FFFFFF;
+	position: fixed;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 2%;
+	z-index: 10;
+}
+
+
+
+					/*BURGER MENU*/
+
+.burger-menu {
+ 	display: inline-block;
+ 	cursor: pointer;
+ 	z-index: 20;
+}
+
+.line1, .line2, .line3 {
+  width: 35px;
+  height: 4px;
+  background-color: #5A98D0;
+  margin: 5px 0;
+  z-index: 30;
+}
+
+
+
+
+.menu-nav {
+	display: none;
+	text-align: left;
+	-webkit-transition: 5s;
+	-o-transition: 5s;
+	transition: 5s;
+	width: 900px;
+	height: 100%;
+	padding-top: 80px;
+	padding-left: 50px; 
+	position: fixed;  
+	-webkit-box-orient: vertical;  
+	-webkit-box-direction: normal;  
+	    -ms-flex-flow: column;  
+	        flex-flow: column; 
+	background-color: #5A98D0;
+	left: 70%;
+
+
+}
+
+
+
+									/*ACTIVE BURGER MENU*/
+
+.burger-menu-active .line1 {
+	background-color: transparent;
+}
+
+.burger-menu-active .line2 {
+	-webkit-transform: rotate(70deg);
+	    -ms-transform: rotate(70deg);
+	        transform: rotate(70deg);
+	background-color: #FFFFFF;
+}
+
+.burger-menu-active .line3 {
+	-webkit-transform: rotate(-70deg);
+	    -ms-transform: rotate(-70deg);
+	        transform: rotate(-70deg);
+	background-color: #FFFFFF;
+}
+
+.menu-nav-active {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	text-align: left;
+	width: 900px;
+	height: 100%;
+	padding-top: 80px;
+	padding-left: 50px; 
+	position: fixed;  
+	-webkit-box-orient: vertical;  
+	-webkit-box-direction: normal;  
+	    -ms-flex-flow: column;  
+	        flex-flow: column; 
+	background-color: #5A98D0;
+	left: 60%;
+	border-radius: 100px 0 0 0;
+}
+
+
+/*HOVER'S*/
+
+.button-projects:hover {
+	-webkit-transform: scale(1.2);
+	    -ms-transform: scale(1.2);
+	        transform: scale(1.2);
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+	background-color: #1E90FF;
+	-webkit-box-shadow: 20px;
+	        box-shadow: 20px; 
+}
